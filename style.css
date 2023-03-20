@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+ body{
+    background-color: #111827;
+    display: flex;
+ }
+
+ .title{
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-left: 170px;
+    font-size: 47px;
+    font-weight: 400;
+ }
+
+.title img{
+    display: flex;
+    padding-bottom: 10rem;
+    width: 26px;
+    margin-top: -45px;
+    margin-left: 480px;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 480px;
+    padding: 80px;
+    margin-top: 249px;
+    height: 613px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-principal{
+    margin-top: 224px;
+    margin-left: -530px;
+    margin-right: 100px;
+    width: 800px; 
+}
+
+.email .img{
+    width: 18px;
+    
+}
+
+.email h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+#email{
+    margin-bottom: 24px;
+    width: 400px;
+    padding-top: 15px;
+    padding-left: 52px;
+    padding-bottom: 15px;
+    font-size: large;
+    margin-left: -35px;
+    background-color: #7180B952;
+    border-radius: 4px;
+    border: none;
+    background-image: url(./img/EnvelopeSimple.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.senha #senha{
+    width: 400px;
+    margin-left: -35px;
+    padding-top: 15px;
+    padding-left: 52px;
+    padding-bottom: 15px;
+    background-color: #7180B952;
+    border-radius: 4px;
+    font-size: large;
+    border: none;
+    background-image: url(./img/Lock.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.senha .img2{
+    width: 16px;
+}
+
+.login .submit{
+    width: 400px;
+    margin-top: 24px;
+    margin-left: -35px;
+    background-color: #7180B9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    font-size: large;
+    border: none;
+}
+
+.img3{
+    width: 27px;
+    margin-bottom: 10px;
+ }
+ 
+ hr{
+    margin-top: 24px;
+ }
+
+ .git{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.git a{
+   padding-left: 5px;
+   text-decoration: none;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.git h3{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+button{
+    background-color: #7180B9;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 189px;
+    padding-bottom: 19px;
+    padding-top: 19px;
+    background-image: url(./img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 30px;
+}
