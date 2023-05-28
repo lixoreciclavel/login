@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@200;300&family=Roboto&family=Ubuntu:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111827;
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr;
+    align-items: center;
+    justify-content: center;
+}
+
+main #title{
+    font-family: poppins;
+    font-size: 30px;
+}
+
+section .login{
+    font-family: inter;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 480px;
+    height: 470px;
+}
+
+section .login h1{
+    padding-top: 55px;
+    font-size: 34px;
+    text-align: center;
+}
+
+section .cadastro-login{
+    display: grid;
+    
+}
